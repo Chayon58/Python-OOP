@@ -10,6 +10,7 @@ class B(A):
     @abstractmethod
     def method1(self):
      pass
+        
 #================================================================
 class C(B):        
     def method1(self):
