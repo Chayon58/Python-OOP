@@ -1,1 +1,2 @@
-print(s2.get__name())
+d1.update_color("black")
+d1.poke()
