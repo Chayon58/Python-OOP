@@ -1,0 +1,1 @@
+print(s2.get__name())

@@ -1,0 +1,19 @@
+class Engine:
+    def __init__(self,cc):
+        self.capacity = cc
+    def start(self):
+        print("Engine Started")
+    def stop(self):
+        print("Engine stopped")
+#=====================================================================
+class Car:
+    def __init__(self, name, cc):
+        self.name = name
+        self.engine = Engine(cc)
+    
+    def run (self):
+       self.engine.start()
+       print("car is running")
+#======================================================================
+c1 = Car("BMW", 2000)
+c1.run()
